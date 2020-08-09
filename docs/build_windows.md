@@ -11,7 +11,7 @@ Click on the `Add Versions` which should show the option to download **Unreal 4.
 
 ## Build AirSim
 * Install Visual Studio 2019.
-**Make sure** to select **Desktop Development with C++**, **.NET Framework 4.6.1 SDK** and **Windows 10 SDK 10.0.18362** (should be selected by default) while installing VS 2019.
+**Make sure** to select **Desktop Development with C++** & **.NET Framework 4.6.1 SDK** and **Windows 10 SDK 10.0.18362** (should be selected by default) while installing VS 2019.
 * Start `Developer Command Prompt for VS 2019`.
 * Clone the repo: `git clone https://github.com/Microsoft/AirSim.git`, and go the AirSim directory by `cd AirSim`.
 * Run `build.cmd` from the command line. This will create ready to use plugin bits in the `Unreal\Plugins` folder that can be dropped into any Unreal project.
