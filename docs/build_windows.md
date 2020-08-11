@@ -10,7 +10,7 @@ Click on the `Add Versions` which should show the option to download **Unreal 4.
    **Note**: If you have UE 4.16 or older projects, please see the [upgrade guide](unreal_upgrade.md) to upgrade your projects.
 
 ## Build AirSim
-* Install Visual Studio 2019.
+* Install [Visual Studio 2019] (https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16).
 **Make sure** to select **Desktop Development with C++** and **.NET Framework 4.6.1 SDK** and **Windows 10 SDK 10.0.18362** (should be selected by default) while installing VS 2019.
 * Start `Developer Command Prompt for VS 2019`.
 * Clone the repo: `git clone https://github.com/Microsoft/AirSim.git`, and go the AirSim directory by `cd AirSim`.
