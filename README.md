@@ -35,7 +35,7 @@ For complete list of changes, view our [Changelog](docs/CHANGELOG.md)
 
 ### Windows
 * [Download binaries](https://github.com/Bakadrago/AirSim/blob/master/docs/build_windows.md)
-* [Build it](https://microsoft.github.io/AirSim/build_windows)
+* [Build it](https://github.com/Bakadrago/AirSim/blob/master/docs/build_windows.md)
 
 ### Linux
 * [Download binaries](https://github.com/Microsoft/AirSim/releases)
