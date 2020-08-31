@@ -14,8 +14,17 @@ Click on the `Add Versions` (+) which should show the option to download **Unrea
 ## Build AirSim
 * [Install](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16) Visual Studio 2019 .
 **Make sure** to select **Desktop Development with C++** and **.NET Framework 4.6.1 SDK** and **Windows 10 SDK 10.0.18362** (should be selected by default) while installing VS 2019.
-* Start `Developer Command Prompt for VS 2019`.
+![Visual Studio 2019](https://user-images.githubusercontent.com/69434515/89741678-c19e2200-dac5-11ea-9285-091ea69b6201.PNG)
+![Desktop Development with C++](https://user-images.githubusercontent.com/69434515/89741670-b6e38d00-dac5-11ea-943a-b3f2a894f237.PNG)
+![.NET Framework 4.6.1 SDK](https://user-images.githubusercontent.com/69434515/89741597-1c834980-dac5-11ea-8f92-733c944872b1.PNG)
+![Windows 10 SDK 10.0.18362](https://user-images.githubusercontent.com/69434515/89741694-f6aa7480-dac5-11ea-931e-d8618f21c7aa.PNG)
+* Start `Developer Command Prompt for VS 2019`. 
+**First** Click the Windows Key / Windows Logo then scroll down to letter V to look for Visual Studio 2019 folder then click to show the contents.
+![DevCommand](https://user-images.githubusercontent.com/69434515/91683607-aafc5f80-eb87-11ea-865a-3469ce1eb369.png)
+**Second** Look for `Developer Command Prompt for VS 2019` then hover to it and right click to show more option and select run as administrator.
+![Options](https://user-images.githubusercontent.com/69434515/91684395-f4e64500-eb89-11ea-87ce-982cec0059c4.png)
 * Clone the repo: `git clone https://github.com/Microsoft/AirSim.git`, and go the AirSim directory by `cd AirSim`.
+![Clone](https://user-images.githubusercontent.com/69434515/91682917-b189d780-eb85-11ea-9538-e57d460c8fa2.PNG)
 * Run `build.cmd` from the command line. This will create ready to use plugin bits in the `Unreal\Plugins` folder that can be dropped into any Unreal project.
 
 ## Build Unreal Project
